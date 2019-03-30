@@ -1,0 +1,26 @@
+.animasi {
+	font-size: 50px;
+	object-position: 100px;
+	width: 100%;
+	white-space:nowrap;
+	overflow:hidden;
+	-webkit-animation: typing 10s steps(70, end);
+	animation: animasi-ketik 10s steps(70, end);
+  }
+  
+  @keyframes animasi-ketik{
+	from { width: 0; }
+  }
+  
+  @-webkit-keyframes animasi-ketik{
+	from { width: 0; }
+  }
+
+
+  .footer{
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	background-color: grey;
+	border-color: grey;
+}
